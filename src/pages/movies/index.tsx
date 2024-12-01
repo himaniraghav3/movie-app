@@ -27,7 +27,7 @@ export default function MyPage() {
   };
 
   return (
-    <div className="bg-zinc-700">
+    <div className=" bg-zinc-700">
       <div className="flex gap-4 justify-center pt-10">
         <TextInput
           id="email4"
@@ -46,6 +46,7 @@ export default function MyPage() {
         ) : (
           movies.map((movie) => (
             <MovieCard
+              id={movie.id}
               name={movie.original_title}
               imgUrl={movie.poster_path}
               year={movie.release_date.split("-")[0]}

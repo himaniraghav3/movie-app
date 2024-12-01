@@ -3,7 +3,7 @@ import { Navbar } from "flowbite-react";
 export const Header = () => {
   return (
     <Navbar fluid className="bg-black">
-      <Navbar.Brand href="https://flowbite-react.com">
+      <Navbar.Brand href="/movies">
         <span className="self-center whitespace-nowrap text-xl text-cyan-700 font-semibold">
           Movie App
         </span>
